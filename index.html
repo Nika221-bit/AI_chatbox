@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gemini ჩატბოტი 🤖</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <!-- ჰედერი -->
+      <div class="chat-header">
+        <span class="logo">✨</span>
+        <div>
+          <h1>Gemini ჩატბოტი</h1>
+          <p>Google Gemini AI — უფასო API დემო</p>
+        </div>
+      </div>
+ 
+      <!-- API Key -->
+      <div class="api-key-section">
+        <label>🔑 API Key:</label>
+        <input
+          type="password"
+          id="apiKey"
+          placeholder="ჩასვით თქვენი Gemini API key აქ..."
+        />
+      </div>
+ 
+      <!-- მესიჯები -->
+      <div class="chat-messages" id="chatMessages">
+        <div class="welcome">
+          <div class="emoji">🤖</div>
+          <p>დაწერეთ რამე და Gemini გიპასუხებთ!</p>
+          <p style="margin-top: 12px; font-size: 12px">
+            ჯერ ჩასვით API Key ზემოთ
+          </p>
+        </div>
+      </div>
+ 
+      <!-- ინფუთი -->
+      <div class="chat-input">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="დაწერეთ შეტყობინება..."
+          autocomplete="off"
+        />
+        <button id="sendBtn" onclick="sendMessage()">გაგზავნა ➤</button>
+      </div>
+    </div>
+ 
+    <script src="main.js"></script>
+  </body>
+</html>
+ 
+ 
