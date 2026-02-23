@@ -94,6 +94,7 @@ function addMessage(text, type) {
   chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
+
 // შეცდომის ჩვენება
 function showError(text) {
   const div = document.createElement("div");
