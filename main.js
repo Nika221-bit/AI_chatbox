@@ -3,6 +3,7 @@ const userInput = document.getElementById("userInput");
 const sendButton = document.getElementById("sendBtn");
 const apiKeyInput = document.getElementById("apiKey");
 
+
 async function sendMessage() {
   const apiKey = apiKeyInput.value.trim();
   const message = userInput.value.trim();
